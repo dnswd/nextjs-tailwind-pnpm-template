@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "eol-last": ["error", "always"],
+    "quotes": ["error", "double", { "avoidEscape": true }]
+  }
+}
